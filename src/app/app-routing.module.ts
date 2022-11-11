@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'news', component: MediaComponent },
   { path: 'reach-us', component: ReachUsComponent},
   { path: 'home', component: HomeComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
