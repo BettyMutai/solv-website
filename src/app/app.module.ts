@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { VisionValueComponent } from './vision-value/vision-value.component';
+import { MediaComponent } from './media/media.component';
+import { ReachUsComponent } from './reach-us/reach-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { VisionValueComponent } from './vision-value/vision-value.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    VisionValueComponent
+    VisionValueComponent,
+    MediaComponent,
+    ReachUsComponent
   ],
   imports: [
     BrowserModule,
