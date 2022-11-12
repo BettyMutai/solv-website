@@ -11,6 +11,12 @@ import { AboutComponent } from './about/about.component';
 import { VisionValueComponent } from './vision-value/vision-value.component';
 import { MediaComponent } from './media/media.component';
 import { ReachUsComponent } from './reach-us/reach-us.component';
+import { ManagementTeamComponent } from './management-team/management-team.component';
+import { PartnersComponent } from './partners/partners.component';
+import { FinancialServicesComponent } from './financial-services/financial-services.component';
+import { BusinessServicesComponent } from './business-services/business-services.component';
+import { ECommerceComponent } from './e-commerce/e-commerce.component';
+import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { ReachUsComponent } from './reach-us/reach-us.component';
     AboutComponent,
     VisionValueComponent,
     MediaComponent,
-    ReachUsComponent
+    ReachUsComponent,
+    ManagementTeamComponent,
+    PartnersComponent,
+    FinancialServicesComponent,
+    BusinessServicesComponent,
+    ECommerceComponent,
+    SupplyChainFinanceComponent
   ],
   imports: [
     BrowserModule,
