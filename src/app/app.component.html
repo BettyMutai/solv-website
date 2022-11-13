@@ -1,2 +1,63 @@
-<router-outlet></router-outlet>
-
+<div id="hamburger" class="small-screen">
+  <button mat-button class="small-screen" (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</div>
+<mat-drawer-container class="small-screen" [hasBackdrop]="true">
+  <mat-drawer id="drawer" #drawer [mode]="'over'">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <button mat-button>
+            <span>Who We Are</span>
+            <mat-icon>arrow_drop_down</mat-icon>
+          </button>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button mat-menu-item>
+        <span>About</span>
+      </button>
+      <button mat-menu-item>
+        <span>Vision & Values</span>
+      </button>
+      <button mat-menu-item>
+        <span>Management Team</span>
+      </button>
+      <button mat-menu-item>
+        <span>Partners</span>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <button mat-button>
+            <span>What we do</span>
+            <mat-icon>arrow_drop_down</mat-icon>
+          </button>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button mat-menu-item>
+        <span>Financial Services</span>
+      </button>
+      <button mat-menu-item>
+        <span>Business Services</span>
+      </button>
+      <button mat-menu-item>
+        <span>E-Commerce</span>
+      </button>
+      <button mat-menu-item>
+        <span>Partners</span>
+      </button>
+    </mat-expansion-panel>
+    <button mat-button>
+      <span>Media</span>
+    </button>
+    <button mat-button>
+      <span>Reach Us</span>
+    </button>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

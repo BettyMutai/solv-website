@@ -1,0 +1,29 @@
+#hamburger{
+  position: fixed;
+  right:0;
+  margin-top: 12px;
+  margin-right: 20px;
+  z-index: 9999;
+}
+
+#drawer {
+  width: 60%;
+  background-color: white;
+  color: black;
+}
+
+button {
+  width: 100%;
+  color: black;
+}
+
+mat-expansion-panel{
+  background-color: white;
+  display: unset;
+  border-radius: 0;
+}
+
+mat-panel-title{
+  color: black;
+}
+
