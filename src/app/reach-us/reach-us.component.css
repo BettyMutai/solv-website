@@ -1175,7 +1175,7 @@ body::backdrop {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  justifycontent: center;
+  justify-content: center;
 }
 
 .mui-style-1gy6lpq-socialLink:hover {
@@ -1198,7 +1198,7 @@ body::backdrop {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  justifycontent: center;
+  justify-content: center;
   color: #00266b;
 }
 
