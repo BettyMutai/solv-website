@@ -27,6 +27,7 @@ import { BusinessServicesComponent } from './business-services/business-services
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
