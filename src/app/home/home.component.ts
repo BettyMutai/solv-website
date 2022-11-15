@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,12 +6,13 @@ import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  safeSrc: SafeResourceUrl;
-  constructor(private sanitizer: DomSanitizer) {
-    this.safeSrc =  this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/c5c-aCwAHKc");
-  }
+
+  constructor() { }
 
   ngOnInit(): void {
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(tag);
   }
 
 }

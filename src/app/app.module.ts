@@ -27,7 +27,8 @@ import { BusinessServicesComponent } from './business-services/business-services
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DomSanitizer } from '@angular/platform-browser';
+import {YouTubePlayerModule} from '@angular/youtube-player';
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -56,7 +57,9 @@ import { DomSanitizer } from '@angular/platform-browser';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatExpansionModule
+    MatExpansionModule,
+    YouTubePlayerModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
