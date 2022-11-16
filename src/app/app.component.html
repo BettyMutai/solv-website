@@ -36,9 +36,19 @@
           </button>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <button mat-menu-item routerLink="/financial-services">
-        <span>Financial Services</span>
-      </button>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <button mat-button>
+              <span>Financial Services</span>
+              <mat-icon>arrow_drop_down</mat-icon>
+            </button>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <button mat-menu-item routerLink="/supply-chain-finance">
+          <span>Supply Chain Services</span>
+        </button>
+      </mat-expansion-panel>
       <button mat-menu-item routerLink="/business-services">
         <span>Business Services</span>
       </button>
