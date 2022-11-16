@@ -133,13 +133,12 @@
 }
 
 .mui-style-1xrn996 {
-  margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.334;
   text-align: left;
-  margin-bottom: 0.35em;
+  margin: 0 0 0.35em;
   color: #f37029;
 }
 
@@ -541,9 +540,8 @@
   content: "";
   height: 35%;
   border-left: 2px solid #ffffff;
-  -ms-flex-item-align: center;
+  -ms-flex-align: center;
   -webkit-align-self: center;
-  -ms-flex-item-align: center;
   align-self: center;
 }
 
