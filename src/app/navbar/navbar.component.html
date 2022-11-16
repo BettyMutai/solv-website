@@ -8,7 +8,7 @@
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
     <mat-menu #who_we_are="matMenu">
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/about">
         <span>About</span>
       </button>
       <button mat-menu-item routerLink="/vision-value">
@@ -26,7 +26,7 @@
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
     <mat-menu #what_we_do="matMenu">
-      <button mat-menu-item [matMenuTriggerFor]="financial_services">
+      <button mat-menu-item [matMenuTriggerFor]="financial_services" routerLink="/financial-services">
         <span>Financial Services</span>
       </button>
       <button mat-menu-item routerLink="/business-services">
@@ -37,7 +37,7 @@
       </button>
     </mat-menu>
     <mat-menu #financial_services>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/supply-chain-finance">
         <span>Supply Chain Finance</span>
       </button>
     </mat-menu>
