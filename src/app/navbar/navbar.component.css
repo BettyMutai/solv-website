@@ -7,6 +7,103 @@
 
 @media screen and (min-width: 600px) {
   .navigation-bar{
-    padding: 0px 24px;
+    padding: 0 24px;
   }
 }
+
+.mui-style-1ikct5o-logo {
+  width: 148px;
+  display: inline-block;
+  height: auto;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.mat-button {
+  transition: 0.4s;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 13px 20px;
+}
+
+.mat-button :hover {
+  transform: translateY(-8px);
+}
+
+navItem :not(:last-child)::after {
+  content: "";
+  border-left: 2px solid #000;
+  -ms-flex-align: center;
+  align-self: center;
+  font-size: 17px;
+  height: 16px;
+}
+
+menuWrapper {
+  padding: 0;
+}
+
+::ng-deep .mat-menu-content{
+  padding: 0;
+  background-color: #00266B;
+  border-left: 2px solid #000;
+}
+
+button.mat-menu-item {
+display: block;
+width: 100%;
+padding: 7px 8px;
+color: white;
+text-decoration: none;
+font-size: 11px;
+letter-spacing: 1px;
+line-height: 16.5px;
+text-transform: uppercase;
+}
+button.mat-menu-item :not(:last-child) {
+  border-bottom: 1px solid #FFFFFF;
+}
+button.mat-menu-item :hover {
+  background-color: #FFFFFF;
+  color: #00266B;
+}
+button.activeMenuItem {
+  background-color: #FFFFFF;
+  color: #00266B;
+}
+button.nestedMenuItem {
+  padding-left: 16px;
+}
+button.menuItemLink :hover {
+  color: #00266B;
+}
+
+mobileMenu {
+  width: 100%;
+  background-color: #00266B;
+  border-radius: 0;
+}
+button.collapsibleMenu {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+navBackdrop {
+  background-color: #806BFFF2;
+  z-index: 1000;
+}
+searchInput {
+  color: white !important;
+  font-size: 2em !important;
+  line-height: 1.2em;
+  background-color: transparent;
+  border-style: none;
+  font-weight: bold;
+  outline-style: none;
+  font-family: 'Poppins', sans-serif;
+  height: 3em;
+  width: 25ch;
+}
+
+

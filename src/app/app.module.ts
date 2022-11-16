@@ -11,6 +11,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDialogModule} from '@angular/material/dialog';
 // Angular material modules end
 
+//pipes
+import { SafePipe } from './pipes/safe.pipe';
+//pipes end
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -29,7 +33,9 @@ import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VideoDialogComponent } from './components/video-dialog/video-dialog.component';
-import { SafePipe } from './pipes/safe.pipe';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+
 
 @NgModule({
   declarations: [
@@ -49,6 +55,8 @@ import { SafePipe } from './pipes/safe.pipe';
     ECommerceComponent,
     SupplyChainFinanceComponent,
     VideoDialogComponent,
+    PrivacyPolicyComponent,
+    TermsOfServiceComponent,
     SafePipe
   ],
   imports: [
@@ -61,7 +69,7 @@ import { SafePipe } from './pipes/safe.pipe';
     MatButtonModule,
     MatSidenavModule,
     MatExpansionModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

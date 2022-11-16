@@ -11,13 +11,13 @@
       <button mat-menu-item>
         <span>About</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/vision-value">
         <span>Vision & Values</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/management-team">
         <span>Management Team</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/partners">
         <span>Partners</span>
       </button>
     </mat-menu>
@@ -29,14 +29,11 @@
       <button mat-menu-item [matMenuTriggerFor]="financial_services">
         <span>Financial Services</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/business-services">
         <span>Business Services</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item routerLink="/e-commerce">
         <span>E-Commerce</span>
-      </button>
-      <button mat-menu-item>
-        <span>Partners</span>
       </button>
     </mat-menu>
     <mat-menu #financial_services>
@@ -47,7 +44,7 @@
     <button mat-button routerLink="/news">
       <span>Media</span>
     </button>
-    <button mat-button>
+    <button mat-button routerLink="/reach-us">
       <span>Reach Us</span>
     </button>
   </div>
