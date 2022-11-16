@@ -3,11 +3,11 @@
     <img src="/assets/static/SOLV-LOGO.svg" class="mui-style-1ikct5o-logo" alt="Solv logo" title="Solv logo" />
   </a>
   <div class="large-screen">
-    <button mat-button [matMenuTriggerFor]="whoWeAre">
+    <button mat-button [matMenuTriggerFor]="who_we_are">
       <span>Who We Are</span>
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
-    <mat-menu #whoWeAre="matMenu">
+    <mat-menu #who_we_are="matMenu">
       <button mat-menu-item>
         <span>About</span>
       </button>
@@ -21,12 +21,12 @@
         <span>Partners</span>
       </button>
     </mat-menu>
-    <button mat-button [matMenuTriggerFor]="whatWeDo">
+    <button mat-button [matMenuTriggerFor]="what_we_do">
       <span>What we do</span>
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
-    <mat-menu #whatWeDo="matMenu">
-      <button mat-menu-item>
+    <mat-menu #what_we_do="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="financial_services">
         <span>Financial Services</span>
       </button>
       <button mat-menu-item>
@@ -37,6 +37,11 @@
       </button>
       <button mat-menu-item>
         <span>Partners</span>
+      </button>
+    </mat-menu>
+    <mat-menu #financial_services>
+      <button mat-menu-item>
+        <span>Supply Chain Finance</span>
       </button>
     </mat-menu>
     <button mat-button routerLink="/news">

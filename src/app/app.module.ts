@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDialogModule} from '@angular/material/dialog';
 // Angular material modules end
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +28,8 @@ import { BusinessServicesComponent } from './business-services/business-services
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { VideoDialogComponent } from './components/video-dialog/video-dialog.component';
+import { SafePipe } from './pipes/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FinancialServicesComponent,
     BusinessServicesComponent,
     ECommerceComponent,
-    SupplyChainFinanceComponent
+    SupplyChainFinanceComponent,
+    VideoDialogComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
@@ -55,7 +60,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
