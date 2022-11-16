@@ -39,7 +39,7 @@
 
 .mui-style-iol86l {
   box-sizing: border-box;
-  margin: 0;
+  margin: 15px 0;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
@@ -51,6 +51,7 @@
   -ms-flex-positive: 0;
   flex-grow: 0;
   max-width: 100%;
+  text-align: justify;
 }
 
 @media (min-width: 600px) {
