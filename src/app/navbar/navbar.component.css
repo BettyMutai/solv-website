@@ -18,13 +18,14 @@
   max-height: 100%;
   vertical-align: middle;
 }
+
 .mat-button {
-transition: 0.4s;
-font-size: 12px;
-font-weight: 700;
-letter-spacing: 1px;
-text-transform: uppercase;
-padding: 13px 20px;
+  transition: 0.4s;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 13px 20px;
 }
 
 .mat-button :hover {
@@ -44,9 +45,10 @@ menuWrapper {
   padding: 0;
 }
 
-.mat-menu-content {
+::ng-deep .mat-menu-content{
   padding: 0;
   background-color: #00266B;
+  border-left: 2px solid #000;
 }
 
 button.mat-menu-item {

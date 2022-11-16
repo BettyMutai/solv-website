@@ -29,6 +29,9 @@ import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {YouTubePlayerModule} from '@angular/youtube-player';
 import {MatDialogModule} from "@angular/material/dialog";
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -46,21 +49,24 @@ import {MatDialogModule} from "@angular/material/dialog";
     FinancialServicesComponent,
     BusinessServicesComponent,
     ECommerceComponent,
-    SupplyChainFinanceComponent
+    SupplyChainFinanceComponent,
+    PrivacyPolicyComponent,
+    TermsOfServiceComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatMenuModule,
-    MatIconModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatExpansionModule,
-    YouTubePlayerModule,
-    MatDialogModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatMenuModule,
+        MatIconModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatExpansionModule,
+        YouTubePlayerModule,
+        MatDialogModule,
+        MatTableModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

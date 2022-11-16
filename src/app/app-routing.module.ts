@@ -11,6 +11,8 @@ import {FinancialServicesComponent} from "./financial-services/financial-service
 import {BusinessServicesComponent} from "./business-services/business-services.component";
 import {ECommerceComponent} from "./e-commerce/e-commerce.component";
 import {SupplyChainFinanceComponent} from "./supply-chain-finance/supply-chain-finance.component";
+import {PrivacyPolicyComponent} from "./privacy-policy/privacy-policy.component";
+import {TermsOfServiceComponent} from "./terms-of-service/terms-of-service.component";
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: 'business-services', component: BusinessServicesComponent},
   { path: 'e-commerce', component: ECommerceComponent},
   { path: 'supply-chain-finance', component: SupplyChainFinanceComponent},
+  { path: 'privacy-policy', component: PrivacyPolicyComponent},
+  { path: 'terms-of-service', component: TermsOfServiceComponent},
 ];
 
 @NgModule({
