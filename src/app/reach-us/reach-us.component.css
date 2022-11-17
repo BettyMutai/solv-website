@@ -24,12 +24,6 @@ body {
   background-color: #fff;
 }
 
-@media print {
-  body {
-    background-color: #fff;
-  }
-}
-
 body::backdrop {
   background-color: #fff;
 }
@@ -293,13 +287,6 @@ body::backdrop {
   cursor: default;
 }
 
-@media print {
-  .mui-style-16kne6e {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
-}
-
 .mui-style-16kne6e:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -399,13 +386,6 @@ body::backdrop {
 .mui-style-1yxmbwk.Mui-disabled {
   pointer-events: none;
   cursor: default;
-}
-
-@media print {
-  .mui-style-1yxmbwk {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
 }
 
 .mui-style-1yxmbwk:hover {
@@ -509,13 +489,6 @@ body::backdrop {
   cursor: default;
 }
 
-@media print {
-  .mui-style-1xceuki {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
-}
-
 .mui-style-1xceuki:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
@@ -617,13 +590,6 @@ body::backdrop {
 .mui-style-1gpb3ti.Mui-disabled {
   pointer-events: none;
   cursor: default;
-}
-
-@media print {
-  .mui-style-1gpb3ti {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
 }
 
 .mui-style-1gpb3ti:hover {
@@ -1066,13 +1032,6 @@ body::backdrop {
 .mui-style-1c7ajoa.Mui-disabled {
   pointer-events: none;
   cursor: default;
-}
-
-@media print {
-  .mui-style-1c7ajoa {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
 }
 
 .mui-style-1c7ajoa:hover {

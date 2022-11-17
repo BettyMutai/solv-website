@@ -83,13 +83,6 @@
   cursor: default;
 }
 
-@media print {
-  .mui-style-1xceuki {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
-}
-
 .mui-style-1xceuki:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
@@ -191,13 +184,6 @@
 .mui-style-1gpb3ti.Mui-disabled {
   pointer-events: none;
   cursor: default;
-}
-
-@media print {
-  .mui-style-1gpb3ti {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
 }
 
 .mui-style-1gpb3ti:hover {
