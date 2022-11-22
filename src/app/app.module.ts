@@ -34,6 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VideoDialogComponent } from './components/video-dialog/video-dialog.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import { CareersComponent } from './careers/careers.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
     VideoDialogComponent,
     PrivacyPolicyComponent,
     TermsOfServiceComponent,
-    SafePipe
+    SafePipe,
+    CareersComponent
   ],
   imports: [
     BrowserModule,

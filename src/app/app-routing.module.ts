@@ -13,6 +13,7 @@ import {ECommerceComponent} from "./e-commerce/e-commerce.component";
 import {SupplyChainFinanceComponent} from "./supply-chain-finance/supply-chain-finance.component";
 import {PrivacyPolicyComponent} from "./privacy-policy/privacy-policy.component";
 import {TermsOfServiceComponent} from "./terms-of-service/terms-of-service.component";
+import {CareersComponent} from "./careers/careers.component";
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'supply-chain-finance', component: SupplyChainFinanceComponent},
   { path: 'privacy-policy', component: PrivacyPolicyComponent},
   { path: 'terms-of-service', component: TermsOfServiceComponent},
+  { path: 'careers', component: CareersComponent}
 ];
 
 @NgModule({

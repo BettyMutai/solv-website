@@ -110,39 +110,37 @@
 }
 
 .mui-style-1leyngk {
-  margin: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 3.75rem;
+  /*font-weight: 300;
+  font-size: 3.75rem;*/
   line-height: 1.2;
   text-align: left;
-  margin-bottom: 0.35em;
-  font-size: 42.5px;
+  margin: 0 0 0.35em;
+  font-size: 42px;
   font-weight: 600;
 }
 
 .mui-style-g3sv13 {
-  margin: 0;
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 0.35em;
-  font-size: 18px;
-  line-height: 1.6em;
+  margin: 0 0 0.35em;
+  /*font-size: 18px;
+  line-height: 1.6em;*/
 }
 
-.mui-style-51a70q {
+/*.mui-style-51a70q {
   margin: 0;
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
+  !*font-size: 1rem;
+  line-height: 1.5;*!
   font-size: 18px;
   line-height: 1.6em;
-}
+}*/
 
 .mui-style-16ljhan {
   position: absolute;
@@ -156,11 +154,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 100%;
+  /*width: 100%;*/
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
@@ -175,39 +172,34 @@
 }
 
 .mui-style-1vtoao {
-  margin: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  /*font-weight: 400;
   font-size: 2.125rem;
-  line-height: 1.235;
+  line-height: 1.235;*/
   text-align: left;
-  margin-bottom: 0.35em;
-  font-size: 25.5px;
+  margin: 0 0 0.35em;
+  font-size: 25px;
   font-weight: 500;
-  line-height: 31.8833px;
+  line-height: 31px;
 }
 
 .mui-style-qyvl99 {
-  margin: 0;
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 0.35em;
-  text-align: justify;
-  margin-bottom: 20px;
+  /*margin-bottom: 0.35em;*/
+  margin: 0 0 20px;
 }
 
 .mui-style-16dsbt9 {
-  margin: 0;
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  text-align: justify;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .mui-style-qzhbje {
@@ -311,8 +303,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 1em;
-  height: 1em;
+  /*width: 1em;
+  height: 1em;*/
   display: inline-block;
   fill: currentColor;
   -webkit-flex-shrink: 0;
