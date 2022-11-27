@@ -31,7 +31,7 @@ import { BusinessServicesComponent } from './business-services/business-services
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { SupplyChainFinanceComponent } from './supply-chain-finance/supply-chain-finance.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { VideoDialogComponent } from './components/video-dialog/video-dialog.component';
+import { VideoDialogComponent } from './video-dialog/video-dialog.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 import { CareersComponent } from './careers/careers.component';

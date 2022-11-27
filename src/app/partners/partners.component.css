@@ -326,9 +326,6 @@
 
 .mui-style-1h77wgb > .MuiGrid-item {
   padding-top: 24px;
-}
-
-.mui-style-1h77wgb > .MuiGrid-item {
   padding-left: 24px;
 }
 
@@ -346,6 +343,7 @@
   -ms-flex-positive: 0;
   flex-grow: 0;
   max-width: 50%;
+  position: relative;
 }
 
 @media (min-width: 600px) {
@@ -399,3 +397,7 @@
     max-width: 33.333333%;
   }
 }
+
+/*.photo {
+
+}*/

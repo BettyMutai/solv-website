@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { VideoDialogComponent } from '../components/video-dialog/video-dialog.component';
+import { VideoDialogComponent } from '../video-dialog/video-dialog.component';
 
 @Component({
   selector: 'app-home',
